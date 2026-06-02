@@ -1,0 +1,28 @@
+# === Python & Machine Learning ===
+__pycache__/
+*.pyc
+*.pt
+*.h5
+.ipynb_checkpoints/
+research/requirements.txt
+
+# === MATLAB ===
+*.asv
+*.slxc
+*.mex*
+*.mat
+
+# === LaTeX ===
+*.aux
+*.log
+*.toc
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.pdf
+
+# === OS & IDEs ===
+.DS_Store
+.vscode/
+.idea/
