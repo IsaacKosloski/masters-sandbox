@@ -1,0 +1,13 @@
+# !/bin/sh
+# Script to compile in Modeltech version 10.0
+#
+vlib ieee_proposed.lib
+vmap ieee_proposed ./ieee_proposed.lib
+vcom -2008 -work ieee_proposed real_matrix_pkg.vhdl real_matrix_pkg_body.vhdl
+vcom -2008 -work ieee_proposed complex_matrix_pkg.vhdl complex_matrix_pkg_body.vhdl
+vcom -2008 -work ieee_proposed fixed_matrix_pkg.vhdl fixed_matrix_pkg_body.vhdl
+vlib work
+vmap work work
+vcom -2008 test_real_matrix.vhdl
+vcom -2008 test_complex_matrix.vhdl
+vcom -2008 test_fixed_matrix.vhdl

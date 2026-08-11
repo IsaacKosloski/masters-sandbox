@@ -1,0 +1,43 @@
+quit -sim
+vcom Exemplo1.vhd
+vsim work.Exemplo1
+
+add wave -divider "MATRIZES DO MODELO"
+add wave -color yellow A
+add wave -color yellow B
+add wave -color yellow C
+
+add wave -divider "PREDICAO MPC"
+add wave -color cyan F
+add wave -color cyan Phi
+add wave -color cyan PhiT
+
+add wave -divider "REFERENCIA E PESOS"
+add wave -color green Rs_setpoint
+add wave -color green Rbarra
+
+add wave -divider "CALCULOS INTERNOS"
+add wave -color magenta PhiTPhi
+add wave -color magenta PhiTF
+add wave -color magenta PhiTPhiRbarra
+add wave -color magenta InvPhiTPhiRbarra
+add wave -color magenta InvFinal
+
+add wave -divider "GANHOS E SAIDAS"
+add wave -color white Gain_Kmpc
+add wave -color white Gain_Ky
+add wave -color white Saida
+add wave -color white Mv
+
+add wave -divider "SINAIS DE CONTROLE"
+add wave -color orange clk
+add wave -color red rst
+add wave -color orange gera
+
+force clk 0 0, 1 10 -r 20
+force rst 1
+run 200
+force rst 0
+force Yout(0,0) 0.0002
+force gera 0 0, 1 20 -r 50
+run 1200

@@ -1,27 +1,27 @@
-# [Provisional or Definitive M.Sc. Dissertation Title]
+# Implementação em FPGA de Pré-Distorsor Digital com Modelagem Fracionária para Sistemas 6G
 
 > **Central M.Sc. Thesis Repository** > Graduate Program in Electrical Engineering (PPGEE)  
-> [Your University / Institution Name]
+> FAENG - UFMS
 
 ---
 
-## 👤 General Information
+## General Information
 
-* **M.Sc. Candidate:** [Your Full Name] — ([your.email@institution.com](mailto:your.email@institution.com))
-* **Advisor:** Prof. Dr. [Advisor's Name]
-* **Co-Advisor:** Prof. Dr. [Co-Advisor's Name, if applicable]
-* **Research Line:** 6G Telecommunication Systems / Soft Computing-Based Decision Systems
-* **Timeline:** [Start Year] — [Expected Graduation Year, e.g., 2027]
+* **M.Sc. Candidate:** Isaac Kosloski Oliveira — ([isaac.kosloski@ufms.br](mailto:your.email@institution.com))
+* **Advisor:** Prof. Dr. Edson Antônio Batista
+* **Co-Advisor:** Prof. Dr. Guilherme Augusto Defalque
+* **Research Line:** 6G Telecommunication Systems - Soft Computing-Based Decision Systems
+* **Timeline:** 2026 — 2027
 
 ---
 
-## 🎯 Research Abstract
+## Research Abstract
 
 [Provide a concise 3-5 line abstract of your research problem here. Example: "This research addresses the challenge of intelligent resource allocation in 6G networks using Soft Computing techniques (e.g., Fuzzy Logic, Neural Networks, Evolutionary Algorithms). The main objective is to optimize latency and energy efficiency in ultra-reliable low-latency communication (URLLC) scenarios through a flexible, adaptive machine-learning framework..."]
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The directory tree is organized as follows to separate coursework, core simulation assets, and manuscript drafts:
 
@@ -39,7 +39,7 @@ The directory tree is organized as follows to separate coursework, core simulati
 
 ---
 
-## 🛠️ Requirements & Environment Setup
+## Requirements & Environment Setup
 
 To reproduce the simulations and run the intelligent decision models hosted here, you will need:
 

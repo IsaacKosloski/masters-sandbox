@@ -1,0 +1,155 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\minicurso\MinicursoFacom\exemplos\exemplo6
+Eexemplo6
+Z1 w1774467754
+Z2 DPx13 ieee_proposed 15 real_matrix_pkg 0 22 Q^5b8?L3;?5M[S;NlQc:L0
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dC:\Users\edson.batista\Downloads\exemplo6\exemplo6
+Z8 8C:/Users/edson.batista/Downloads/exemplo6/exemplo6/exemplo6.vhd
+Z9 FC:/Users/edson.batista/Downloads/exemplo6/exemplo6/exemplo6.vhd
+l0
+L25
+VTB0_ZjD5f`M_cn9e6ZLK63
+!s100 XPfWNfOIag6G8ISgB5QRK3
+Z10 OV;C;10.1d;51
+32
+!i10b 1
+Z11 !s108 1774468986.819000
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/edson.batista/Downloads/exemplo6/exemplo6/exemplo6.vhd|
+Z13 !s107 C:/Users/edson.batista/Downloads/exemplo6/exemplo6/exemplo6.vhd|
+Z14 o-work work -O0
+Z15 tExplicit 1
+Am1
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 8 exemplo6 0 22 TB0_ZjD5f`M_cn9e6ZLK63
+l35
+L30
+Z17 Vg2oWFjHmlcP^e`P787=6j3
+Z18 !s100 VD6?LHhBa`BFUbN=KmC>;0
+R10
+32
+!i10b 1
+R11
+R12
+R13
+R14
+R15
+Etest_complex_matrix
+Z19 w1774448081
+R7
+Z20 8test_complex_matrix.vhdl
+Z21 Ftest_complex_matrix.vhdl
+l0
+L24
+V^UCYMLA[N<:Gb_f=m>`]Y0
+R10
+33
+Z22 !s108 1774448513.551000
+Z23 !s90 -reportprogress|300|-2008|test_complex_matrix.vhdl|
+Z24 !s107 test_complex_matrix.vhdl|
+Z25 o-2008 -O0
+R15
+!s100 HaTVjef0M01VQj4ni?i@O0
+!i10b 1
+Atestbench
+DEx4 work 19 test_complex_matrix 0 22 ^UCYMLA[N<:Gb_f=m>`]Y0
+DPx13 ieee_proposed 18 complex_matrix_pkg 0 22 6R:5h>@Z1_j5m6aHBXNVi0
+R2
+Z26 DPx4 ieee 12 math_complex 0 22 j?eY54GmbzR5X[J9KS3<>3
+Z27 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R5
+l47
+L36
+VW[oToBIAF?`X]We3E@85m3
+R10
+33
+R22
+R23
+R24
+R25
+R15
+!s100 ?CH1Zb]GZ`EJ8OLOGZSZ72
+!i10b 1
+Etest_fixed_matrix
+R19
+R7
+Z28 8test_fixed_matrix.vhdl
+Z29 Ftest_fixed_matrix.vhdl
+l0
+L24
+Vlg8aA>;?EFEkLVd]cZ[<30
+R10
+33
+Z30 !s108 1774448514.035000
+Z31 !s90 -reportprogress|300|-2008|test_fixed_matrix.vhdl|
+Z32 !s107 test_fixed_matrix.vhdl|
+R25
+R15
+!s100 lgeGi_HKcKN2`cf?JGJ082
+!i10b 1
+Atestbench
+DEx4 work 17 test_fixed_matrix 0 22 lg8aA>;?EFEkLVd]cZ[<30
+DPx13 ieee_proposed 16 fixed_matrix_pkg 0 22 jYkn5[FfS<oU4<ON]AU9R1
+R2
+Z33 DPx4 ieee 17 fixed_generic_pkg 0 22 dnEG0BMWbGEXn@TT=Wh_c2
+Z34 DPx4 ieee 9 fixed_pkg 0 22 _YS>daVNM>A@gMgm;Gg7k3
+Z35 DPx4 ieee 17 fixed_float_types 0 22 =0;62o;ECZzWjJIh=Ib]f2
+Z36 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+l150
+L41
+VZ@dIeN9b[:Xg[LjWFY3^X3
+R10
+33
+R30
+R31
+R32
+R25
+R15
+!s100 z?`LO>5>I?oQ0@Y[VP;3_1
+!i10b 1
+Etest_real_matrix
+R19
+R7
+Z37 8test_real_matrix.vhdl
+Z38 Ftest_real_matrix.vhdl
+l0
+L24
+VA:]lIhHJUG<KX`HdEVL6I1
+R10
+33
+Z39 !s108 1774448512.270000
+Z40 !s90 -reportprogress|300|-2008|test_real_matrix.vhdl|
+Z41 !s107 test_real_matrix.vhdl|
+R25
+R15
+!s100 Ob58e25^Lg2aYKk6_A@I82
+!i10b 1
+Atestbench
+DEx4 work 16 test_real_matrix 0 22 A:]lIhHJUG<KX`HdEVL6I1
+R2
+R27
+R5
+l93
+L35
+VDSK[k15kQ6D>=UPEGN_KV1
+R10
+33
+R39
+R40
+R41
+R25
+R15
+!s100 >8B0l1Gmo8a^hgEmGak`W0
+!i10b 1

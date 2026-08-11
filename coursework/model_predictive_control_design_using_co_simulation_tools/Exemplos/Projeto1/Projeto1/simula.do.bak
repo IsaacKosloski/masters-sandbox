@@ -1,0 +1,32 @@
+quit -sim
+vcom Exemplo1.vhd
+vsim work.Exemplo1
+
+add wave A
+add wave B
+add wave C
+add wave F
+add wave Phi
+add wave PhiT
+add wave Rs_setpoint
+add wave Rbarra
+add wave PhiTPhi
+add wave PhiTF
+add wave PhiTPhiRbarra
+add wave InvPhiTPhiRbarra
+add wave InvFinal
+add wave Gain_Kmpc
+add wave Gain_Ky
+add wave Saida
+add wave Mv
+add wave clk
+add wave rst
+add wave gera
+
+force clk 0 0, 1 10 -r 20
+force rst 1
+run 200
+force rst 0
+force Yout(0,0) 0.0002
+force gera 0 0, 1 20 -r 50
+run 500 
