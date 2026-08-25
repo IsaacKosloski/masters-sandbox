@@ -1,0 +1,56 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/modelsim_proj
+vdebounce
+!s110 1612291166
+!i10b 1
+!s100 3V<B6;>@6QV`jgE]D^BW[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@9YG0ZOmeo4_8I?6`RZV80
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1494525462
+8C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/debounce.v
+FC:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/debounce.v
+!i122 0
+L0 1 60
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1612291166.000000
+!s107 C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/debounce.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/debounce.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb
+!s110 1612291167
+!i10b 1
+!s100 F>Jo:UH:f;CXPQ32AE?YG1
+R1
+I7YZICQiaSfLJT^YL7^35k2
+R2
+R0
+w1494530926
+8C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/tb.v
+FC:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/tb.v
+!i122 1
+L0 1 63
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/franc/Desktop/Treinamento_Online_Macnica_DHW_-_2021_Fevereiro/material/projetos a atualizar/solutions/projeto-11/tb.v|
+!i113 1
+R5
+R6
