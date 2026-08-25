@@ -1,0 +1,110 @@
+do simula.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap ieee_proposed ./ieee_proposed.lib 
+# Copying /home/isaac-kosloski/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:40 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed real_matrix_pkg.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Compiling package real_matrix_pkg
+# End time: 16:14:40 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:40 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed real_matrix_pkg_body.vhdl 
+# -- Loading package STANDARD
+# -- Loading package MATH_REAL
+# -- Loading package TEXTIO
+# -- Compiling package body real_matrix_pkg
+# -- Loading package real_matrix_pkg
+# End time: 16:14:40 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:40 on Aug 12,2026
+# vcom -reportprogress 300 -2008 exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package real_matrix_pkg
+# -- Compiling entity exemplo01
+# -- Compiling architecture sim of exemplo01
+# End time: 16:14:40 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.exemplo01 
+# Start time: 16:14:40 on Aug 12,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee_proposed.real_matrix_pkg(body)
+# Loading work.exemplo01(sim)
+# ** Fatal: (vsim-3421) Value inf for result(i,j) is out of range -1e+308 to 1e+308.
+#    Time: 0 ps  Iteration: 0  Process: /exemplo01/line__20 File: real_matrix_pkg_body.vhdl
+# Fatal error in ForLoop loop at real_matrix_pkg_body.vhdl line 76
+# 
+# HDL call sequence:
+# Stopped at real_matrix_pkg_body.vhdl 76 ForLoop loop
+# called from  exemplo01.vhd 26 Process line__20
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at real_matrix_pkg_body.vhdl 76 ForLoop loop
+# called from  exemplo01.vhd 26 Process line__20
+# 
+# 0 ps
+# 1 ns
+do simula.do
+# End time: 16:19:37 on Aug 12,2026, Elapsed time: 0:04:57
+# Errors: 1, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "ieee_proposed.lib".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap ieee_proposed ./ieee_proposed.lib 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:38 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed real_matrix_pkg.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Compiling package real_matrix_pkg
+# End time: 16:19:38 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:38 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed real_matrix_pkg_body.vhdl 
+# -- Loading package STANDARD
+# -- Loading package MATH_REAL
+# -- Loading package TEXTIO
+# -- Compiling package body real_matrix_pkg
+# -- Loading package real_matrix_pkg
+# End time: 16:19:38 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:38 on Aug 12,2026
+# vcom -reportprogress 300 -2008 exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package real_matrix_pkg
+# -- Compiling entity exemplo01
+# -- Compiling architecture sim of exemplo01
+# End time: 16:19:38 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.exemplo01 
+# Start time: 16:19:38 on Aug 12,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee_proposed.real_matrix_pkg(body)
+# Loading work.exemplo01(sim)
+# 0 ps
+# 42 ns

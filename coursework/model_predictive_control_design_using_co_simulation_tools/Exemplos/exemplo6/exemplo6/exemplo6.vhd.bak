@@ -1,0 +1,76 @@
+--===========================================================================
+-- Autor: Edson Antonio Batista
+-- Atualização: 25/08/2021
+--Atualização: 25/03/2026
+-- Exemplo 7: Encontrar o vetor de estado k + 1 e a respectiva lei de controle 
+--=============================================================================
+-- ***** Informações relevantes para projetos em VHDL***************
+-- Variáveis ? cálculo interno imediato
+-- Sinais ? estado e saída do sistema
+-- Reset ? garante condição inicial válida
+-- Clock ? define evolução temporal
+-- Processo ? unidade de execução
+-- Lista de sensibilidade ? define quando o sistema reage
+
+--============================================================================
+library ieee;
+library ieee_proposed;
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+use ieee_proposed.real_matrix_pkg.all;
+
+entity exemplo6 is
+  port( clk, rst : in std_logic);
+
+end entity;
+
+architecture m1 of exemplo6 is
+signal vector_estado: real_matrix (0 to 1, 0 to 0):=zeros(2,1);
+signal ganho_Uk: real_matrix (0 to 0, 0 to 0):=zeros(1,1);
+
+   
+  begin
+
+process(clk,rst)
+  
+  --======================================================================================================================
+  -- observação: Em VHDL, sinais representam o hardware. Variáveis representam o raciocínio matemático dentro do hardware.
+  --======================================================================================================================
+  variable A: real_matrix (0 to 1, 0 to 1):=zeros(2,2);
+  variable Xk : real_matrix (0 to 1, 0 to 0) := zeros(2,1);
+  variable XkHum :  real_matrix (0 to 1, 0 to 0) := zeros(2,1);
+  variable Uk : real_matrix(0 to 0, 0 to 0) := zeros(1,1);
+  variable gain : real_matrix (0 to 0, 0 to 1) := zeros(1,2);
+   
+
+  
+  begin 
+    
+  If (rst = '1') then
+--Carrega os dados das matrizes e o vetor de estado inicial
+A := ((0.95, 0.0825), (-1.0, 0.65));
+Xk(0,0) := 0.0;
+Xk(1,0) := 1.0;
+
+gain(0,0) := 10.0;
+gain(0,1) := 3.5;
+Uk := -gain*Xk; -- ganho para x(0)
+
+elsif (clk'event and clk = '1') then
+--Realiza o calculo dos vetores e do ganho. Operação matricial
+  XkHum := A*Xk;
+  Xk := XkHum; -- atualiza o novo valor  de x1 e x2
+  Uk := -gain*XkHum; -- ganho para x(k+1)
+  
+end if;
+
+vector_estado <= Xk;
+ganho_Uk <= Uk;
+
+
+end process;
+    
+end architecture;

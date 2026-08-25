@@ -1,0 +1,23 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+ 
+ENTITY exemplo01 IS
+    PORT (
+        a    : IN  STD_LOGIC;
+        b    : IN  STD_LOGIC;
+        c    : IN  STD_LOGIC;
+        sela : IN  STD_LOGIC;
+        selb : IN  STD_LOGIC;
+        q    : OUT STD_LOGIC
+    );
+END exemplo01;
+ 
+ARCHITECTURE mfe OF exemplo01 IS
+BEGIN
+
+r <= A AND(B OR C);
+s <= D XOR C;
+t <= C NAND D;
+Saida <= r AND (s OR t);
+
+END mfe;

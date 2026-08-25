@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/isaac-kosloski/Documents/Masters/masters/coursework/model_predictive_control_design_using_co_simulation_tools/assigments/exemplo01
+Eexemplo01
+Z1 w1786565956
+Z2 DPx13 ieee_proposed 15 real_matrix_pkg 0 22 5DA0S_TVQ0NC]SA]A:Z`Z2
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8exemplo01.vhd
+Z6 Fexemplo01.vhd
+l0
+L8 1
+VY1g;KJaid9J2[[Z[ZRIWo3
+!s100 N14O8Pn0a^;HMc^=]@UF=2
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1786565978
+!i10b 1
+Z9 !s108 1786565978.000000
+Z10 !s90 -reportprogress|300|-2008|exemplo01.vhd|
+Z11 !s107 exemplo01.vhd|
+!i113 1
+Z12 o-2008
+Z13 tExplicit 1 CvgOpt 0
+Asim
+R2
+R3
+R4
+Z14 DEx4 work 9 exemplo01 0 22 Y1g;KJaid9J2[[Z[ZRIWo3
+!i122 1
+l19
+Z15 L14 17
+V;G@9[EkmDV8I3;e1ai0cO1
+!s100 =Y<ZooHYZ=YF0:^zH[ffT0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

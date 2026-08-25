@@ -1,0 +1,107 @@
+do compile.mti
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap ieee_proposed ./ieee_proposed.lib 
+# Copying /home/isaac-kosloski/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:23 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed real_matrix_pkg.vhdl real_matrix_pkg_body.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Compiling package real_matrix_pkg
+# -- Loading package MATH_REAL
+# -- Compiling package body real_matrix_pkg
+# -- Loading package real_matrix_pkg
+# End time: 14:53:24 on Aug 12,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:24 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed complex_matrix_pkg.vhdl complex_matrix_pkg_body.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package MATH_REAL
+# -- Loading package MATH_COMPLEX
+# -- Loading package real_matrix_pkg
+# -- Compiling package complex_matrix_pkg
+# -- Compiling package body complex_matrix_pkg
+# -- Loading package complex_matrix_pkg
+# End time: 14:53:24 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:24 on Aug 12,2026
+# vcom -reportprogress 300 -2008 -work ieee_proposed fixed_matrix_pkg.vhdl fixed_matrix_pkg_body.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fixed_float_types
+# -- Loading package instance fixed_pkg
+# -- Loading package fixed_generic_pkg
+# -- Loading package MATH_REAL
+# -- Loading package body fixed_generic_pkg
+# -- Loading package real_matrix_pkg
+# -- Compiling package fixed_matrix_pkg
+# -- Compiling package body fixed_matrix_pkg
+# -- Loading package fixed_matrix_pkg
+# End time: 14:53:24 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:24 on Aug 12,2026
+# vcom -reportprogress 300 -2008 test_real_matrix.vhdl 
+# -- Loading package STANDARD
+# -- Compiling entity test_real_matrix
+# -- Loading package TEXTIO
+# -- Loading package MATH_REAL
+# -- Loading package real_matrix_pkg
+# -- Compiling architecture testbench of test_real_matrix
+# ** Warning: test_real_matrix.vhdl(242): (vcom-1083) Implicit array operator "=" always returns FALSE (at index #1 left length 3 is not equal to right length 4).
+# ** Warning: test_real_matrix.vhdl(1937): (vcom-1083) Implicit array operator "=" always returns FALSE (at index #1 left length 3 is not equal to right length 4).
+# ** Warning: test_real_matrix.vhdl(3081): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3082): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3083): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3084): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3085): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3085): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3086): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3091): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3095): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3096): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3097): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3097): (vcom-1246) Range 1 to 0 is null.
+# ** Warning: test_real_matrix.vhdl(3098): (vcom-1246) Range 1 to 0 is null.
+# End time: 14:53:24 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 15
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:24 on Aug 12,2026
+# vcom -reportprogress 300 -2008 test_complex_matrix.vhdl 
+# -- Loading package STANDARD
+# -- Compiling entity test_complex_matrix
+# -- Loading package TEXTIO
+# -- Loading package MATH_REAL
+# -- Loading package MATH_COMPLEX
+# -- Loading package real_matrix_pkg
+# -- Loading package complex_matrix_pkg
+# -- Compiling architecture testbench of test_complex_matrix
+# End time: 14:53:24 on Aug 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:24 on Aug 12,2026
+# vcom -reportprogress 300 -2008 test_fixed_matrix.vhdl 
+# -- Loading package STANDARD
+# -- Compiling entity test_fixed_matrix
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fixed_float_types
+# -- Loading package instance fixed_pkg
+# -- Loading package fixed_generic_pkg
+# -- Loading package MATH_REAL
+# -- Loading package body fixed_generic_pkg
+# -- Loading package real_matrix_pkg
+# -- Loading package fixed_matrix_pkg
+# -- Compiling architecture testbench of test_fixed_matrix
+# End time: 14:53:25 on Aug 12,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,11 @@
+|exemplo01
+A => r.IN1
+B => r.IN0
+C => r.IN1
+C => s.IN0
+C => t.IN0
+D => s.IN1
+D => t.IN1
+Saida <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
